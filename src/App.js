@@ -36,13 +36,13 @@ function App() {
 					<div className="main_container">
 						<h1 className="title">Kahoot!</h1>
 						<button className="butonStyle">
-							<Link className="linkStyle" to="/Preguntas">
+							<Link className="linkStyle" to="/Proyecto_Preguntados/Preguntas">
 								Start Test
 							</Link>
 						</button>
 					</div>
 				</Route>
-				<Route exact path="/Preguntas" component={Preguntas}>
+				<Route exact path="/Proyecto_Preguntados/Preguntas" component={Preguntas}>
 					<Preguntas cambioVal={cambioVal} global={global} setGlobal={setGlobal}></Preguntas>
 				</Route>
 			</BrowserRouter>
