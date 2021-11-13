@@ -32,11 +32,11 @@ function App() {
 	return (
 		<div>
 			<BrowserRouter>
-				<Route exact path="/Proyecto_Preguntados">
+				<Route exact path="/Proyecto_Preguntados/">
 					<div className="main_container">
 						<h1 className="title">Kahoot!!</h1>
 						<button className="butonStyle">
-							<Link className="linkStyle" to="/Proyecto_Preguntados/Preguntas">
+							<Link className="linkStyle" to="/Preguntas">
 								Start Test
 							</Link>
 						</button>
